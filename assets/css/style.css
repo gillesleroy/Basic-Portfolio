@@ -1,0 +1,153 @@
+/**
+ * Float Layout Activity
+ **/
+
+ * {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background: #777777;
+    width: '960px';
+    font-size: '18px';
+    margin: auto;
+    line-height: 34px;
+  }
+  
+  header, nav, section, footer, aside{
+    padding: 20px;
+    /* margin-bottom: 20px; */
+    margin: 20px 10px;
+    background: #ebebeb;
+    
+  }
+  /* header, nav, section, footer{
+    width: 800px;
+  } */
+  
+  section {
+    width: 950px;
+    height: 850px;
+    /* display: inline; */
+    /* border: 1px solid green; */
+    float: left; /* This is what I was missing */
+    /* overflow: auto; */
+    /* padding: 20px; */
+    /* background: #ebebeb;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #fff; */
+  }
+  
+  aside {
+    /* background: #ebebeb; */
+    /* padding: 20px; */
+    float: right; 
+    height: 300px;
+    width: 300px;
+  }
+  
+  footer {
+    /* background: #ebebeb; */
+    /* padding: 50px;
+    width: 100%; 
+    float: left; */
+  }
+  
+  article{
+    color: #ebebeb;
+    background: #777777;
+    float: left;
+    overflow: auto;
+    width:930px;
+    height:650px;
+  }
+  
+  h1, h2, h3, p {
+    color: #777777;
+    background: #ebebeb;
+    width: 900px;
+    margin: 12px;
+    font-family: 'Copse', serif;
+    text-align: left;
+  }
+  
+  .clearfix {
+    overflow: auto;
+  }
+  
+  /* .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
+  
+  #bio-image{
+    margin-right: 20px;
+    width: 200px;
+    float: left;
+  }
+
+  #header-h1 {
+    width: 770px;
+  }
+  
+  #container-1{
+    width: 950px;
+    margin: 0 120px;
+    overflow: auto;
+  }
+  
+  #container-2{
+    width: 950px;
+    overflow: auto;
+    border: 1px solid red;
+    height: 800px;
+  }
+  
+  #nav {
+    /* background: #ebebeb; */
+    padding: 20px;
+    /* margin-bottom: 20px; */
+    color: #fff;
+    border: 1px solid red;
+    overflow: auto;
+  }
+  
+  #left {
+    background: #30948D;
+   /* padding: 20px; */
+    float: left;
+    width: 33.3%;
+  }
+  
+  #middle {
+    background: #9E1212;
+    /* padding: 20px; */
+    float: left;
+    width: 33.3%;
+  }
+  
+  #right {
+    background: #30948D;
+    /* padding: 20px; */
+    float: left;
+    width: 33.3%;
+  }
+  
+  /* #full { */
+    /* background: #ebebeb; */
+    /* padding: 80px; */
+    /* clear: both;
+    overflow: auto;
+  } */
+  
+  #division {
+    /* background: #ebebeb; */
+    padding: 20px;
+  
+  }
+    
