@@ -10,7 +10,8 @@
   body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    background: #777777;
+    /* background: #777777; */
+    background-image: url("../images/concrete-texture.png");
     width: '960px';
     font-size: '18px';
     margin: auto;
@@ -30,16 +31,19 @@
   
   section {
     width: 950px;
-    height: 850px;
+    height: 1050px;
+    margin: 0 0 0 0;
     /* display: inline; */
     /* border: 1px solid green; */
     float: left; /* This is what I was missing */
     /* overflow: auto; */
     /* padding: 20px; */
-    /* background: #ebebeb;
+    background: #ebebeb;
+    /*
     padding: 20px;
     margin-bottom: 20px;
     color: #fff; */
+    /* border: 1px solid red; */
   }
   
   aside {
@@ -50,20 +54,21 @@
     width: 300px;
   }
   
-  footer {
-    /* background: #ebebeb; */
-    /* padding: 50px;
+  /* footer {
+    background: #ebebeb;
+    padding: 50px;
     width: 100%; 
-    float: left; */
-  }
+    float: left;
+  } */
   
   article{
     color: #ebebeb;
-    background: #777777;
+    /* background: #777777; */
     float: left;
     overflow: auto;
-    width:930px;
-    height:650px;
+    /* width:930px; */
+    height:960px;
+    /* border: 1px solid royalblue; */
   }
   
   h1, h2, h3, p {
@@ -72,9 +77,20 @@
     width: 900px;
     margin: 12px;
     font-family: 'Copse', serif;
+    font-size: 24px;
     text-align: left;
   }
   
+  h1 {
+    color: #4aaaa5;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #777777;
+  }
+
+  p {
+    height: 920px;
+  }
+
   .clearfix {
     overflow: auto;
   }
@@ -102,10 +118,10 @@
   }
   
   #container-2{
-    width: 950px;
+    /* width: 1020px; */
     overflow: auto;
-    border: 1px solid red;
-    height: 800px;
+    /* border: 1px solid black; */
+    /* height: 1050px; */
   }
   
   #nav {
