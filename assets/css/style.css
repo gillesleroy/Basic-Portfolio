@@ -22,23 +22,29 @@
     padding: 20px;
     /* margin-bottom: 20px; */
     margin: 20px 10px;
-    background: #ebebeb;
+     /* 20px 10px; */
+    background: #ffffff;
     
   }
   /* header, nav, section, footer{
     width: 800px;
   } */
-  
+  footer {
+    background: #666666; 
+    border-top: 5px solid #4aaaa5;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
   section {
     width: 950px;
-    height: 1050px;
+    /* height: 1050px; */
     margin: 0 0 0 0;
     /* display: inline; */
     /* border: 1px solid green; */
     float: left; /* This is what I was missing */
     /* overflow: auto; */
     /* padding: 20px; */
-    background: #ebebeb;
+    background: #ffffff;
     /*
     padding: 20px;
     margin-bottom: 20px;
@@ -67,29 +73,39 @@
     float: left;
     overflow: auto;
     /* width:930px; */
-    height:960px;
+    /* height:960px; */
     /* border: 1px solid royalblue; */
   }
   
   h1, h2, h3, p {
     color: #777777;
-    background: #ebebeb;
+    background: #ffffff;
     width: 900px;
     margin: 12px;
-    font-family: 'Copse', serif;
-    font-size: 24px;
+    /* font-family: 'Copse', serif; */
+    font-family: 'Georgia', Times, Times New Roman, serif;
     text-align: left;
   }
   
   h1 {
     color: #4aaaa5;
-    margin-bottom: 0px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
     border-bottom: 1px solid #777777;
+    font-size: 28px;
+    font-weight: bold;
   }
 
-  p {
+  /* p {
     height: 920px;
+  } */
+
+  .container{
+    width: 950px;
+    margin: 0 220px;
+    overflow: auto;
   }
+  
 
   .clearfix {
     overflow: auto;
@@ -113,8 +129,10 @@
   
   #container-1{
     width: 950px;
-    margin: 0 120px;
+    margin: 0 220px;
     overflow: auto;
+    margin-bottom: 180px;
+
   }
   
   #container-2{
@@ -122,36 +140,59 @@
     overflow: auto;
     /* border: 1px solid black; */
     /* height: 1050px; */
+    margin-top: 20px;
   }
   
   #nav {
     /* background: #ebebeb; */
-    padding: 20px;
+     padding: 0px;
     /* margin-bottom: 20px; */
     color: #fff;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    border-bottom: 1px solid #dddddd;
     overflow: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 80px;
   }
   
-  #left {
-    background: #30948D;
+  #title {
+    background: #4aaaa5;
+    color: white;
    /* padding: 20px; */
     float: left;
-    width: 33.3%;
+    width: 25%;
+    margin: 0px;
+    text-align: center;
+    height: 80px;
+    padding-top: 20px;
+  }
+
+  #left {
+    /* background: #30948D; */
+   /* padding: 20px; */
+    float: left;
+    width: 5%;
+    margin: 0px 30px 0px 420px;
+    padding-top: 25px;
   }
   
   #middle {
-    background: #9E1212;
+    /* background: #9E1212; */
     /* padding: 20px; */
     float: left;
-    width: 33.3%;
+    width: 5%;
+    margin: 0px 30px 0px 30px;
+    padding-top: 25px;
   }
   
   #right {
-    background: #30948D;
+    /* background: #30948D; */
     /* padding: 20px; */
     float: left;
-    width: 33.3%;
+    width: 5%;
+    margin: 0px 30px 0px 30px;
+    padding-top: 25px;
   }
   
   /* #full { */
