@@ -173,7 +173,7 @@
    /* padding: 20px; */
     float: left;
     width: 5%;
-    margin: 0px 30px 0px 420px;
+    margin: 0px 30px 0px 220px;
     padding-top: 25px;
   }
   
@@ -193,6 +193,7 @@
     width: 5%;
     margin: 0px 30px 0px 30px;
     padding-top: 25px;
+    margin-left: 80px;
   }
   
   /* #full { */
