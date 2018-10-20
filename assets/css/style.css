@@ -123,6 +123,12 @@
     float: left;
   }
 
+  .bio-images{
+    margin-right: 20px;
+    width: 200px;
+    float: left;
+  }
+
   #header-h1 {
     width: 770px;
   }
